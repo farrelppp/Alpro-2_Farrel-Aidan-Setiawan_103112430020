@@ -38,7 +38,7 @@ func main() {
 ```
 
 >**Output**
->![](soal1.png)
+>![](output/soal1.png)
 
 
 
@@ -68,7 +68,7 @@ func main() {
 ```
 
 >**Output**
->![](soal2.png)
+>![](output/soal2.png)
 
 
 
@@ -104,7 +104,7 @@ func main() {
 ```
 
 >**Output**
->![](soal3.png)
+>![](output/soal3.png)
 
 
 
@@ -139,7 +139,7 @@ func main() {
 ```
 
 >**Output**
->![](soal4.png)
+>![](output/soal4.png)
 
 
 
@@ -177,8 +177,8 @@ func main() {
 ```
 
 >**Output**
->![](soal5.png)
->![](soal5-1.png)
+>![](output/soal5.png)
+>![](output/soal5-1.png)
 >(hasil eksekusi program harusnya SNO -> TOP namun compiler saya tidak mengeksekusi dengan bener sedangkan di compiler online benar) 
 
 
@@ -219,7 +219,7 @@ func main() {
 ```
 
 >**Output**
->![](soal6.png)
+>![](output/soal6.png)
 
 
 
@@ -272,7 +272,7 @@ func main() {
 ```
 
 >**Output**
->![](soal7.png)
+>![](output/soal7.png)
 
 
 
@@ -316,7 +316,7 @@ func main() {
 ```
 
 >**Output**
->![](soal8.png)
+>![](output/soal8.png)
 
 
 
@@ -352,7 +352,7 @@ func main() {
 ```
 
 >**Output**
->![](soal9.png)
+>![](output/soal9.png)
 
 
 
@@ -396,7 +396,7 @@ func main() {
 ```
 
 >**Output**
->![](soal10.png)
+>![](output/soal10.png)
 
 Program ini akan menghitung biaya pengiriman berdasarkan berat barang yang dimasukkan oleh pengguna.
 
@@ -487,7 +487,7 @@ func main() {
 >kesalahan tipe data: variable nam seharusnya angka namun malah string variable nmk tidak terisi nilai apapun sehingga output tidak ada 
 >kesalahan if: beberapa program ifnya terpisah
 >alur yang benar: menggunakan if else if dan nam float untuk bilangan/angka dan nmk string untuk huruf
->c.![](soal12.png)
+>c.![](output/soal11.png)
 
 
 <h4>Soal 12</h4>
@@ -538,7 +538,7 @@ func main() {
 ```
 
 >**Output**
->![](soal12.png)
+>![](output/soal12.png)
 >
 
 Program ini akan menentukan faktor faktor dari sebuah bilangan dan mengecek apakah bilangan tersebut merupakan bilangan prima.
