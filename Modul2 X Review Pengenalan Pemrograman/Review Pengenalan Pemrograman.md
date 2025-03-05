@@ -7,7 +7,7 @@ ___
 Latihan dan review penggunaan IF-THEN, SWITCH, TIPE DATA DAN VARIABLE, LOOPING, REPEAT UNTIL, WHILE LOOP
 
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Telusuri program berikut dengan cara mengkompilasi dan mengeksekusi program. Silakan masukan data yang sesuai sebanyak yang diminta program. Perhatikan keluaran yang diperoleh. Coba terangkan apa sebenarnya yang dilakukan program tersebut?
 
