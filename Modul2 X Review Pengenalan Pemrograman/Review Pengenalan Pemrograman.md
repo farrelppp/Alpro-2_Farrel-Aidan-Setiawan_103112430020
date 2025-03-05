@@ -1,4 +1,3 @@
-
 <h1 align=center>Laporan Praktikum Modul X <br>Nama Modul</h1>
 
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
@@ -446,9 +445,9 @@ fmt.Scanln(&nam)
 }
 ```
 Jawablah pertanyaan-pertanyaan berikut: 
-a. Jika nam diberikan adalah 80.1, apa keluaran dari program tersebut? Apakah eksekusi program tersebut sesuai spesifikasi soal? 
-b. Apa saja kesalahan dari program tersebut? Mengapa demikian? Jelaskan alur program seharusnya! 
-c. Perbaiki program tersebut! Ujilah dengan masukan: 93.5; 70.6; dan 49.5. Seharusnya keluaran yang diperoleh adalah ‘A’, ‘B’, dan ‘D’.
+<p>a. Jika nam diberikan adalah 80.1, apa keluaran dari program tersebut? Apakah eksekusi program tersebut sesuai spesifikasi soal?</p> 
+<p>b. Apa saja kesalahan dari program tersebut? Mengapa demikian? Jelaskan alur program seharusnya!</p>
+<p>c. Perbaiki program tersebut! Ujilah dengan masukan: 93.5; 70.6; dan 49.5. Seharusnya keluaran yang diperoleh adalah ‘A’, ‘B’, dan ‘D’.</p>
 
 ```go
 package main
@@ -483,12 +482,14 @@ func main() {
 ```
 
 >**Output**
+>![](output/soal11.png)
 ><p>a. keluaran tidak ada karena variable nam didalam if tidak diubah ke nmk dan karena program memiliki kesalahan penulisan maka menyebabkan eksekusi tidak berjalan dengan benar</p>
 ><p>b. 
 >kesalahan tipe data: variable nam seharusnya angka namun malah string variable nmk tidak terisi nilai apapun sehingga output tidak ada
 >kesalahan if: beberapa program ifnya terpisah
 >alur yang benar: menggunakan if else if dan nam float untuk bilangan/angka dan nmk string untuk huruf</p>
-><p>c.</p>![](output/soal11.png)
+
+
 
 
 <h3>Soal 12</h3>
