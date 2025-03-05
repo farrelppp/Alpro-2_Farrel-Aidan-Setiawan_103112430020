@@ -1,9 +1,10 @@
-___
+
 <h1 align=center>Laporan Praktikum Modul X <br>Nama Modul</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
+
 Latihan dan review penggunaan IF-THEN, SWITCH, TIPE DATA DAN VARIABLE, LOOPING, REPEAT UNTIL, WHILE LOOP
 
 ## Unguided
