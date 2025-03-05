@@ -9,7 +9,7 @@ Latihan dan review penggunaan IF-THEN, SWITCH, TIPE DATA DAN VARIABLE, LOOPING, 
 
 ## Unguided
 
-<h4>Soal 1</h4>
+<h3>Soal 1</h3>
 Telusuri program berikut dengan cara mengkompilasi dan mengeksekusi program. Silakan masukan data yang sesuai sebanyak yang diminta program. Perhatikan keluaran yang diperoleh. Coba terangkan apa sebenarnya yang dilakukan program tersebut?
 
 ``` go
@@ -49,7 +49,7 @@ Program pertama tama akan mendeklarasikan variable “satu”, “dua”, “tig
 
 Contoh: A B C > B C A
 
-<h4>Soal 2</h4>
+<h3>Soal 2</h3>
 Tahun kabisat adalah tahun yang habis dibagi 400 atau habis dibagi 4 tetapi tidak habis dibagi 100. Buatlah sebuah program yang menerima input sebuah bilangan bulat dan memeriksa apakah bilangan tersebut merupakan tahun kabisat (true) atau bukan (false).
 
 ```go
@@ -79,7 +79,7 @@ Program pertama tama akan mendekalrasikan variable "tahun" dengan tipe data inte
 
 Jika kondisi tersebut terpenuhi, maka program akan mencetak "kabisat: true", yang berarti tahun tersebut adalah tahun kabisat. Jika tidak, maka program akan mencetak "kabisat: false", yang berarti bukan tahun kabisat.
 
-<h4>Soal 3</h4>
+<h3>Soal 3</h3>
 Buat program Bola yang menerima input jari jari suatu bola (bilangan bulat). Tampilkan Volume dan Luas kulit bola. 𝑣𝑜𝑙𝑢𝑚𝑒𝑏𝑜𝑙𝑎 = 4/3 𝜋𝑟^3 dan 𝑙𝑢𝑎𝑠𝑏𝑜𝑙𝑎 = 4𝜋𝑟^2 (π ≈ 3.1415926535).
 
 ```go
@@ -115,7 +115,7 @@ Program pertama tama akan mendeklarasikan variable "jari" dengan tipe data integ
 
 Setelah nilai dihitung menggunakan rumus tersebut, hasilnya akan ditampilkan dalam format desimal dengan 4 angka di belakang koma.
 
-<h4>Soal 4</h4>
+<h3>Soal 4</h3>
 Dibaca nilai temperatur dalam derajat Celsius. Nyatakan temperatur tersebut dalam Fahrenheit 𝐶𝑒𝑙𝑠𝑖𝑢𝑠 = (𝐹𝑎ℎ𝑟𝑒𝑛ℎ𝑒𝑖𝑡 − 3/2) × 5/9 𝑅𝑒𝑎𝑚𝑢𝑟 = 𝐶𝑒𝑙𝑐𝑖𝑢𝑠 × 4/5 𝐾𝑒𝑙𝑣𝑖𝑛 = (𝐹𝑎ℎ𝑟𝑒𝑛ℎ𝑒𝑖𝑡 + 459.67) × 5/9
 
 ```go
@@ -151,7 +151,7 @@ Program pertama tama akan mendeklarasikan variable "cel", "ream", "fahr", "kelv"
 
 Setelah nilai dihitung menggunakan rumus tersebut, hasilnya akan ditampilkan dalam format desimal dengan 2 angka di belakang koma.
 
-<h4>Soal 5</h4>
+<h3>Soal 5</h3>
 Tipe karakter sebenarnya hanya apa yang tampak dalam tampilan. Di dalamnya tersimpan dalam bentuk biner 8 bit (byte) atau 32 bit (rune) saja. Buat program ASCII yang akan membaca 5 buat data integer dan mencetaknya dalam format karakter. Kemudian membaca 3 buah data karakter dan mencetak 3 buah karakter setelah karakter tersebut (menurut tabel ASCII).
 
 Masukan terdiri dari dua baris. Baris pertama berisi 5 buah data integer. Data integer mempunyai nilai antara 32 s.d. 127. Baris kedua berisi 3 buah karakter yang berdampingan satu dengan yang lain (tanpa dipisahkan spasi). 
@@ -193,7 +193,7 @@ Program pertama tama akan mengeksekusi dan meminta pengguna untuk memasukkan lim
 
 Setelah semua nilai diperoleh, program akan mencetak lima angka pertama dalam bentuk karakter ASCII sesuai dengan nilainya. Selanjutnya, tiga karakter tambahan akan ditampilkan dengan nilai ASCII yang ditambahkan 1 dari nilai aslinya. Dengan masukan `"66 97 103 117 115"` diikuti oleh "SNO" hasil akhirnya adalah "Bagus" dan "TOP", di mana "Bagus" berasal dari konversi ASCII angka pertama, sedangkan "TOP" berasal dari "SNO" yang telah ditambah 1 dalam nilai ASCII. 
 
-<h4>Soal 6</h4>
+<h3>Soal 6</h3>
 Siswa kelas IPA di salah satu sekolah menengah atas di Indonesia sedang mengadakan praktikum kimia. Di setiap percobaan akan menggunakan 4 tabung reaksi, yang mana susunan warna cairan di setiap tabung akan menentukan hasil percobaan. Siswa diminta untuk mencatat hasil percobaan tersebut. Percobaan dikatakan berhasil apabila susunan warna zat cair pada gelas 1 hingga gelas 4 secara berturutan adalah ‘merah’, ‘kuning’, ‘hijau’, dan ‘ungu’ selama 5 kali percobaan berulang. Buatlah sebuah program yang menerima input berupa warna dari ke 4 gelas reaksi sebanyak 5 kali percobaan. Kemudian program akan menampilkan true apabila urutan warna sesuai dengan informasi yang diberikan pada paragraf sebelumnya, dan false untuk urutan warna lainnya.
 
 ```go
@@ -230,7 +230,7 @@ Program pertama tama akan mendeklarasikan sebuah slice masukan yang berisi warna
 
 Setelah lima percobaan selesai, program akan mencetak "BERHASIL: true" jika semua masukan dalam setiap percobaan benar, atau "BERHASIL: false" jika ada kesalahan pada salah satu percobaan hasilnya akan "BERHASIL: false".
 
-<h4>Soal 7</h4>
+<h3>Soal 7</h3>
 Suatu pita (string) berisi kumpulan nama-nama bunga yang dipisahkan oleh spasi dan ‘– ‘, contoh pita diilustrasikan seperti berikut ini. Pita: mawar – melati – tulip – teratai – kamboja – anggrek Buatlah sebuah program yang menerima input sebuah bilangan bulat positif (dan tidak nol) N, kemudian program akan meminta input berupa nama bunga secara berulang sebanyak N kali dan nama tersebut disimpan ke dalam pita.
 
 Modifikasi program sebelumnya, proses input akan berhenti apabila user mengetikkan ‘SELESAI’. Kemudian tampilkan isi pita beserta banyaknya bunga yang ada di dalam pita
@@ -283,7 +283,7 @@ Program pertama tama akan mendeklarasikan variabel "bunga" dengan tipe data stri
 
 Jika tidak ada bunga yang dimasukkan sebelum "SELESAI", program akan mencetak "Pita :" dan "Bunga: 0". Jika ada bunga yang telah dimasukkan, program akan mencetak "Pita:" diikuti oleh daftar bunga, serta "Bunga:" diikuti oleh jumlah bunga.
 
-<h4>Soal 8</h4>
+<h3>Soal 8</h3>
 
 Setiap hari Pak Andi membawa banyak barang belanjaan dari pasar dengan mengendarai sepeda motor. Barang belanjaan tersebut dibawa dalam kantong terpal di kiri-kanan motor. Sepeda motor tidak akan oleng jika selisih berat barang di kedua kantong sisi tidak lebih dari 9 kg. Buatlah program Pak Andi yang menerima input dua buah bilangan real positif yang menyatakan berat total masing-masing isi kantong terpal. Program akan terus meminta input bilangan tersebut hingga salah satu kantong terpal berisi 9 kg atau lebih.
 
@@ -328,7 +328,7 @@ Jika pengguna memasukkan berat negatif atau total berat kedua kantong melebihi 1
 
 Program kemudian akan mengecek apakah selisih berat antara kedua kantong lebih dari atau sama dengan 9 kg. Jika ya, program mencetak "Sepeda motor pak Andi akan oleng: true", yang berarti sepeda motor akan kehilangan keseimbangan. Jika tidak, program mencetak "Sepeda motor pak Andi akan oleng: false", yang berarti sepeda motor tetap stabil. Program akan terus berjalan sampai kondisi terpenuhi.
 
-<h4>Soal 9</h4>
+<h3>Soal 9</h3>
 
 Diberikan sebuah persamaan sebagai berikut ini. $𝑓(𝑘) = (4𝑘 + 2)^2 /(4𝑘 + 1)(4𝑘 + 3)$ Buatlah sebuah program yang menerima input sebuah bilangan sebagai K, kemudian menghitung dan menampilkan nilai f(K) sesuai persamaan di atas.
 
@@ -363,7 +363,7 @@ Program pertama tama mendeklarasikan variabel `k` sebagai bilangan bulat dan mem
 
 Setelah perulangan selesai, program mencetak hasil perhitungan dengan 10 angka di belakang desimal.
 
-<h4>Soal 10</h4>
+<h3>Soal 10</h3>
 
 PT POS membutuhkan aplikasi perhitungan biaya kirim berdasarkan berat parsel. Maka, buatlah program BiayaPos untuk menghitung biaya pengiriman tersebut dengan ketentuan sebagai berikut! Dari berat parsel (dalam gram), harus dihitung total berat dalam kg dan sisanya (dalam gram). Biaya jasa pengiriman adalah Rp. 10.000,- per kg. Jika sisa berat tidak kurang dari 500 gram, maka tambahan biaya kirim hanya Rp. 5,- per gram saja. Tetapi jika kurang dari 500 gram, maka tambahan biaya akan dibebankan sebesar Rp. 15,- per gram. Sisa berat (yang kurang dari 1kg) digratiskan biayanya apabila total berat ternyata lebih dari 10kg.
 
@@ -405,7 +405,7 @@ Program pertama tama mendeklarasikan variabel "berat" dengan tipe data integer u
 
 Jika berat lebih dari 10 kg, "biaya" menjadi nol. Jika sisa gram lebih dari atau sama dengan 500 gr, biayanya dihitung dengan tarif Rp. 5 per gram, sedangkan jika kurang dari 500 gr, biayanya dihitung Rp. 15 per gram. Total biaya dihitung dengan menjumlahkan "biayakg" dan "biaya", lalu ditampilkan dengan format yang menjelaskan detail berat dan biaya.
 
-<h4>Soal 11</h4>
+<h3>Soal 11</h3>
 
 Diberikan sebuah nilai akhir mata kuliah (NAM) [0..100] dan standar penilaian nilai mata kuliah (NMK) sebagai berikut: NAM > 80 (A), 72.5 < NAM ≤ 80 (AB), 65 < NAM ≤ 72.5 (B), 57.5 < NAM ≤ 65 (BC), 50 < NAM ≤ 57.5 (C), 40 < NAM ≤ 50 (D), NAM ≤ 40 (E)
 
@@ -483,15 +483,15 @@ func main() {
 ```
 
 >**Output**
->a. keluaran tidak ada karena variable nam didalam if tidak diubah ke nmk dan karena program memiliki kesalahan penulisan maka menyebabkan eksekusi tidak berjalan dengan benar
->b. 
->kesalahan tipe data: variable nam seharusnya angka namun malah string variable nmk tidak terisi nilai apapun sehingga output tidak ada 
+><p>a. keluaran tidak ada karena variable nam didalam if tidak diubah ke nmk dan karena program memiliki kesalahan penulisan maka menyebabkan eksekusi tidak berjalan dengan benar</p>
+><p>b. 
+>kesalahan tipe data: variable nam seharusnya angka namun malah string variable nmk tidak terisi nilai apapun sehingga output tidak ada
 >kesalahan if: beberapa program ifnya terpisah
->alur yang benar: menggunakan if else if dan nam float untuk bilangan/angka dan nmk string untuk huruf
->c.![](output/soal11.png)
+>alur yang benar: menggunakan if else if dan nam float untuk bilangan/angka dan nmk string untuk huruf</p>
+><p>c.</p>![](output/soal11.png)
 
 
-<h4>Soal 12</h4>
+<h3>Soal 12</h3>
 
 Sebuah bilangan bulat b memiliki faktor bilangan f > 0 jika f habis membagi b. Contoh: 2 merupakan faktor dari bilangan 6 karena 6 habis dibagi 2. Buatlah program yang menerima input sebuah bilangan bulat b dan b > 1. Program harus dapat mencari dan menampilkan semua faktor dari bilangan tersebut!
 Bilangan bulat b > 0 merupakan bilangan prima p jika dan hanya jika memiliki persis dua faktor bilangan saja, yaitu 1 dan dirinya sendiri. Lanjutkan program sebelumnya. Setelah menerima masukan sebuah bilangan bulat b > 0. Program tersebut mencari dan menampilkan semua faktor bilangan tersebut. Kemudian, program menentukan apakah b merupakan bilangan prima.
