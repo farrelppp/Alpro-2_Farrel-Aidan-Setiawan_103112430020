@@ -1,4 +1,4 @@
-<h1 align=center>Laporan Praktikum Modul 2 <br>Nama Modul</h1>
+<h1 align=center>Laporan Praktikum Modul 2 <br>Review Pengenalan Pemrograman</h1>
 
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
 
