@@ -2,6 +2,7 @@
 <h1 align=center>Laporan Praktikum Modul 3 <br>Fungsi</h1>
 
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
 
 Fungsi dalam pemrograman adalah suatu blok kode yang dirancang untuk melakukan tugas tertentu dan menghasilkan hasil dari proses tersebut.
