@@ -1,13 +1,13 @@
-___
+
 <h1 align=center>Laporan Praktikum Modul 3 <br>Fungsi</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
 ## Dasar Teori
-___
+
 Fungsi dalam pemrograman adalah suatu blok kode yang dirancang untuk melakukan tugas tertentu dan menghasilkan hasil dari proses tersebut.
 
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Minggu ini, mahasiswa Fakultas Informatika mendapatkan tugas dari mata kuliah matematika diskrit untuk mempelajari kombinasi dan permutasi. Jonas salah seorang mahasiswa, iseng untuk mengimplementasikannya ke dalam suatu program. Oleh karena itu bersediakah kalian membantu Jonas? (tidak tentunya ya :p) 
 Masukan terdiri dari empat buah bilangan asli 𝑎, 𝑏, 𝑐, dan 𝑑 yang dipisahkan oleh spasi, dengan syarat 𝑎 ≥ 𝑐 dan 𝑏 ≥ 𝑑. 
@@ -94,7 +94,7 @@ func main() {
 
 Program tersebut digunakan untuk menghitung hasil dari tiga fungsi matematika yang saling bersarang, yaitu fungsi f, g, dan h, berdasarkan tiga input bilangan dari pengguna.
 
-Program pertama-tama akan mendeklarasikan tiga fungsi, yaitu f, g, dan h dengan tipe data integer dan masing masing memiliki variable x dengan tipe data integer juga. Fungsi f akan mengembalikan hasil kuadrat dari bilangan yang dimasukkan. Fungsi g akan mengembalikan hasil pengurangan bilangan dengan 2, sedangkan fungsi h akan mengembalikan hasil penjumlahan bilangan dengan 1.
+Program pertama tama akan mendeklarasikan tiga fungsi, yaitu f, g, dan h dengan tipe data integer dan masing masing memiliki variable x dengan tipe data integer juga. Fungsi f akan mengembalikan hasil kuadrat dari bilangan yang dimasukkan. Fungsi g akan mengembalikan hasil pengurangan bilangan dengan 2, sedangkan fungsi h akan mengembalikan hasil penjumlahan bilangan dengan 1.
 
 Pada fungsi main, program mendeklarasikan tiga variabel bertipe integer, yaitu a, b, dan c, lalu meminta input dari pengguna untuk ketiga bilangan tersebut. Setelah menerima input, program akan menampilkan hasil dari tiga operasi fungsi bersarang. Operasi pertama adalah f(g(h(a))), yaitu menjalankan fungsi h terlebih dahulu pada a, kemudian hasilnya dimasukkan ke fungsi g, dan hasil akhirnya dikalkulasikan dengan fungsi f. Operasi kedua adalah g(h(f(b))), dan operasi ketiga adalah h(f(g(c))). Hasil dari ketiga operasi tersebut kemudian akan ditampilkan ke layar.
 <h4>Soal 3</h4>
@@ -146,6 +146,6 @@ func main() {
 
 Program tersebut digunakan untuk menentukan apakah sebuah titik berada di dalam salah satu atau kedua lingkaran berdasarkan input dari pengguna.
 
-Program pertama-tama mendeklarasikan fungsi jarak bertipe data float64 dan memiliki variable a, b, c, d dengan tipe data float64 juga untuk menghitung jarak antara dua titik dengan rumus math.Sqrt(math.Pow(a-c, 2) + math.Pow(b-d, 2))​. Kemudian, terdapat fungsi didalam dengan tipe data bool dan memiliki variable cx, cy, r, x, y dengan tipe data float64 yang memeriksa apakah suatu titik berada di dalam lingkaran dengan membandingkan jarak titik ke pusat lingkaran dengan jari-jari lingkaran.
+Program pertama tama mendeklarasikan fungsi jarak bertipe data float64 dan memiliki variable a, b, c, d dengan tipe data float64 juga untuk menghitung jarak antara dua titik dengan rumus math.Sqrt(math.Pow(a-c, 2) + math.Pow(b-d, 2))​. Kemudian, terdapat fungsi didalam dengan tipe data bool dan memiliki variable cx, cy, r, x, y dengan tipe data float64 yang memeriksa apakah suatu titik berada di dalam lingkaran dengan membandingkan jarak titik ke pusat lingkaran dengan jari-jari lingkaran.
 
 Pada fungsi main terdapat variable cx1, cy1, r1, cx2, cy2, r2, x, y dengan tipe data float64 dan lingkaran1, lingkaran2 dengan tipe data bool, program ini meminta input dari pengguna berupa koordinat pusat dan jari-jari untuk dua lingkaran, serta koordinat titik yang akan diperiksa. Program kemudian memeriksa apakah titik tersebut berada di dalam masing-masing lingkaran. Hasil pemeriksaan akan dicetak sesuai kondisi yaitu apakah titik berada di dalam kedua lingkaran, salah satu lingkaran, atau di luar keduanya.
