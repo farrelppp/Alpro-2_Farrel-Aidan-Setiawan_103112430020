@@ -5,7 +5,9 @@
 
 ## Dasar Teori
 
-Fungsi dalam pemrograman adalah suatu blok kode yang dirancang untuk melakukan tugas tertentu dan menghasilkan hasil dari proses tersebut.
+Fungsi merupakan satu kesatuan rangkaian instruksi yang memberikan atau menghasilkan suatu
+nilai dan biasanya memetakkan input ke suatu nilai yang lain. Oleh karena itu, fungsi selalu
+menghasilkan/mengembalikan nilai.
 
 ## Unguided
 
