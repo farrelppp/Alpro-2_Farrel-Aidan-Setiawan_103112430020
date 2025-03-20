@@ -1,13 +1,17 @@
-___
+
 <h1 align=center>Laporan Praktikum Modul 4 <br>Prosedur</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
-Fungsi dalam pemrograman adalah suatu blok kode yang dirancang untuk melakukan tugas tertentu dan menghasilkan hasil dari proses tersebut.
+
+Prosedur dapat dianggap sebagai potongan beberapa instruksi program menjadi suatu instruksi baru
+yang dibuat untuk mengurangi kerumitan dari kode program yang kompleks pada suatu program yang
+besar. Prosedur akan menghasilkan suatu akibat atau efek langsung pada program ketika dipanggil
+pada program utama.
 
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Minggu ini, mahasiswa Fakultas Informatika mendapatkan tugas dari mata kuliah matematika diskrit untuk mempelajari kombinasi dan permutasi. Jonas salah seorang mahasiswa, iseng untuk mengimplementasikannya ke dalam suatu program. Oleh karena itu bersediakah kalian membantu Jonas? (tidak tentunya ya :p) 
 Masukan terdiri dari empat buah bilangan asli 𝑎, 𝑏, 𝑐, dan 𝑑 yang dipisahkan oleh spasi, dengan syarat 𝑎 ≥ 𝑐 dan 𝑏 ≥ 𝑑. 
