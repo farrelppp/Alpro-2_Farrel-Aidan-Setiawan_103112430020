@@ -1,13 +1,14 @@
-___
+
 <h1 align=center>Laporan Praktikum Modul 5 <br>Rekursif</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
+
 Rekursif secara sederhana dapat diartikan sebagai cara menyelesaikan suatu masalah dengan cara menyelesaikan sub-masalah yang identik dari masalah utama.
 
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Deret fibonacci adalah sebuah deret dengan nilai suku ke-0 dan ke-1 adalah 0 dan 1, dan nilai suku ke-n selanjutnya adalah hasil penjumlahan dua suku sebelumnya. Secara umum dapat diformulasikan $$𝑆𝑛 = 𝑆𝑛−1 + 𝑆𝑛−2$$ . Berikut ini adalah contoh nilai deret fibonacci hingga suku ke-10. Buatlah program yang mengimplementasikan fungsi rekursif pada deret fibonacci tersebut.
 
