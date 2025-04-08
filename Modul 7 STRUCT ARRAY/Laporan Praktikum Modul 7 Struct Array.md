@@ -1,13 +1,14 @@
-___
+
 <h1 align=center>Laporan Praktikum Modul 7 <br>Struct Array</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
+
 Tipe bentukan memungkinkan pemrograman untuk mendefinisikan suatu tipe data baru pada suatu bahasa pemrograman. Tipe bentukan ini dapat dibedakan atas dua jenis, yaitu Alias dan Struct. Array mempunyai ukuran (jumlah elemen) yang tetap (statis) selama eksekusi program, sehingga jumlah elemen array menjadi bagian dari deklarasi variabel dengan tipe array.
 
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Suatu lingkaran didefinisikan dengan koordinat titik pusat (𝑐𝑥, 𝑐𝑦) dengan radius 𝑟. Apabila diberikan dua buah lingkaran, maka tentukan posisi sebuah titik sembarang (𝑥, 𝑦) berdasarkan dua lingkaran tersebut. Gunakan tipe bentukan titik untuk menyimpan koordinat, dan tipe bentukan lingkaran untuk menyimpan titik pusat lingkaran dan radiusnya. 
 Masukan terdiri dari beberapa tiga baris. Baris pertama dan kedua adalah koordinat titik pusat dan radius dari lingkaran 1 dan lingkaran 2, sedangkan baris ketiga adalah koordinat titik sembarang. Asumsi sumbu x dan y dari semua titik dan juga radius direpresentasikan dengan bilangan bulat. Keluaran berupa string yang menyatakan posisi titik "Titik di dalam lingkaran 1 dan 2", "Titik di dalam lingkaran 1", "Titik di dalam lingkaran 2", atau "Titik di luar lingkaran 1 dan 2".
@@ -219,7 +220,7 @@ func main() {
 ```
 
 >**Output**
->![](Modul%207%20STRUCT%20ARRAY/output/soal2.png)
+>![](output/soal2.png)
 
 Program ini terdiri dari type Titik struct {x, y float64} digunakan untuk menyimpan koordinat dalam bidang datar dengan dua nilai x dan y, sedangkan type Lingkaran struct {pusat Titik jari2 float64} merepresentasikan sebuah lingkaran yang memiliki titik pusat  dan jari-jari. func hitungJarak(t1, t2 Titik) float64 digunakan untuk menghitung jarak antara dua titik dengan rumus, dan func titikDiDalamLingkaran(l Lingkaran, t Titik) bool mengecek apakah suatu titik berada di dalam atau tepat pada lingkaran dengan membandingkan jaraknya ke pusat dengan jari jari lingkaran.
 
@@ -278,7 +279,7 @@ func main() {
 ```
 
 >**Output**
->![](Modul%207%20STRUCT%20ARRAY/output/soal3.png)
+>![](output/soal3.png)
 
 Program ini digunakan untuk merekam hasil pertandingan antara dua klub bola. Struct pertandingan memiliki variabel klub_a dan klub_b bertipe data string, serta skor_a dan skor_b bertipe data integer.
 
