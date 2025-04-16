@@ -1,13 +1,13 @@
-___
 <h1 align=center>Laporan Praktikum Modul 10 PENCARIAN NILAI EKSTRIM PADA HIMPUNAN DATA</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
+
 Pencarian adalah suatu proses yang lazim dilakukan di dalam kehidupan sehari-hari. Contoh penggunaannya dalam kehidupan nyata sangat beragam, misalnya pencarian file di dalam directory komputer, pencarian suatu teks di dalam sebuah dokumen, pencarian buku pada rak buku, dan contoh lainnya. Pertama pada modul ini akan dipelajari salah satu algoritma pencarian nilai terkecil atau terbesar pada sekumpulan data, atau biasa disebut pencarian nilai ekstrim.
 
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Sebuah program digunakan untuk mendata berat anak kelinci yang akan dijual ke pasar. Program ini menggunakan array dengan kapasitas 1000 untuk menampung data berat anak kelinci yang akan dijual. 
 
