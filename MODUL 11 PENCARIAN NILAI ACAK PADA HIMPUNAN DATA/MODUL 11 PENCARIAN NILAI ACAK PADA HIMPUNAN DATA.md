@@ -1,13 +1,13 @@
-___
 <h1 align=center>Laporan Praktikum Modul 11 PENCARIAN NILAI ACAK PADA HIMPUNAN DATA</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
+
 Berbeda dengan pencarian nilai ekstrim, yang mana nilai yang dicari selalu ditemukan, maka pada kasus pencarian ini terdapat kemungkinan bahwa data yang dicari tidak ditemukan. Selain itu pada kasus pencarian ini akan diperkenal algoritma pencarian yang memanfaatkan keterurutan data.
 
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Pada pemilihan ketua RT yang baru saja berlangsung, terdapat 20 calon ketua yang bertanding memperebutkan suara warga. Perhitungan suara dapat segera dilakukan karena warga cukup mengisi formulir dengan nomor dari calon ketua RT yang dipilihnya. Seperti biasa, selalu ada pengisian yang tidak tepat atau dengan nomor pilihan di luar yang tersedia, sehingga data juga harus divalidasi. Tugas Anda untuk membuat program mencari siapa yang memenangkan pemilihan ketua RT. Buatlah program pilkart yang akan membaca, memvalidasi, dan menghitung suara yang diberikan dalam pemilihan ketua RT tersebut. 
 Masukan hanya satu baris data saja, berisi bilangan bulat valid yang kadang tersisipi dengan data tidak valid. Data valid adalah integer dengan nilai di antara 1 s.d. 20 (inklusif). Data berakhir jika ditemukan sebuah bilangan dengan nilai 0. 
@@ -46,6 +46,7 @@ func main() {
 ```
 
 >**Output**
+>
 >![](output/soal1.png)
 
 Program ini bertujuan untuk menghitung jumlah data yang masuk dan jumlah data yang termasuk valid dari sekumpulan bilangan bulat. Program menggunakan array bertipe data integer dengan  indeks 1 sampai 20 merepresentasikan nilai data yang diterima. Ada juga variable jumlahMasukan dengan tipe data integer untuk menghitung seluruh data yang diterima, dan jumlahSah dengan tipe data integer untuk menghitung data yang termasuk dalam indeks.
@@ -113,6 +114,7 @@ func main() {
 ```
 
 >**Output**
+>
 >![](output/soal2.png)
 
 Program ini bertujuan untuk menghitung jumlah suara yang masuk, menentukan suara yang sah, serta mencari ketua dan wakil ketua RT berdasarkan suara terbanyak. Program menggunakan array bertipe integer dengan indeks 1 sampai 20 untuk menyimpan jumlah suara masing-masing calon.
@@ -174,6 +176,7 @@ func posisi(n, k int) int {
 ```
 
 >**Output**
+>
 >![](output/soal3.png)
 
 Program ini bertujuan untuk mencari apakah sebuah bilangan tertentu terdapat dalam sekumpulan data yang sudah terurut membesar. Jika bilangan tersebut ditemukan, program akan mencetak posisi indeksnya. Jika tidak ditemukan, maka akan mencetak "TIDAK ADA".
