@@ -1,14 +1,15 @@
-___
 <h1 align=center>Laporan Praktikum Modul 11 PENCARIAN NILAI ACAK PADA HIMPUNAN DATA</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
+
 Berbeda dengan pencarian nilai ekstrim, yang mana nilai yang dicari selalu ditemukan, maka pada kasus pencarian ini terdapat kemungkinan bahwa data yang dicari tidak ditemukan. Selain itu pada kasus pencarian ini akan diperkenal algoritma pencarian yang memanfaatkan keterurutan data.
 
 ## Guided
 
 <h4>Soal 1</h4>
+
 ```go
 package main
 import "fmt"
@@ -44,6 +45,7 @@ func main() {
 ```
 
 >**Output**
+>
 >![](output/guide1.png)
 
 Program ini dibuat untuk memeriksa apakah sebuah data string terdapat dalam kumpulan data yang diberikan oleh pengguna. Pengguna diminta memasukkan jumlah data yang disimpan di variable n bertipe data integer, lalu mengisi nama-nama data satu per satu. Data tersebut disimpan dalam slice bertipe string. Setelah itu, pengguna memasukkan satu data tambahan sebagai target pencarian.
@@ -53,6 +55,7 @@ func cariBarang(daftar []string, x string) bool ini akan menerima dua parameter,
 Jika seluruh elemen telah diperiksa dan tidak ada yang sesuai, fungsi akan mengembalikan nilai false jika ada yang sesuai maka true. Nilai hasil pencarian disimpan dalam sebuah variabel. Program kemudian mencetak nilai tersebut ke layar sebagai hasil akhir.
 
 <h4>Soal 2</h4>
+
 ```go
 package main
 import "fmt"
@@ -91,6 +94,7 @@ func main() {
 ```
 
 >**Output**
+>
 >![](output/guide2.png)
 
 
@@ -101,6 +105,7 @@ func seqSearch(kalimat string, karakter byte) []int digunakan untuk melakukan pe
 Jika terdapat setidaknya satu posisi yang ditemukan, maka program mencetak seluruh indeks tempat karakter muncul. Jika tidak ada karakter yang sesuai ditemukan, maka program mencetak pesan bahwa karakter tidak ditemukan dalam kalimat.
 
 <h4>Soal 3</h4>
+
 ```go
 package main
 import "fmt"
@@ -151,6 +156,7 @@ func main() {
 ```
 
 >**Output**
+>
 >![](output/guide3.png)
 
 Program ini digunakan untuk mencari data dalam kumpulan data bertipe struct menggunakan metode pencarian biner. type Mahasiswa struct memiliki dua atribut, yaitu NIM dan Nama. Sekumpulan data Mahasiswa disimpan dalam sebuah slice yang sudah terurut berdasarkan NIM. 
@@ -158,8 +164,9 @@ Program ini digunakan untuk mencari data dalam kumpulan data bertipe struct meng
 Proses pencarian dilakukan dengan memanggil func binarySearch(mahasiswa []Mahasiswa, target string) int. Fungsi ini menerima slice Mahasiswa dan NIM target sebagai parameter. Di dalam fungsi, digunakan metode pencarian biner dengan membandingkan nilai NIM pada indeks tengah terhadap NIM yang dicari. Jika nilai yang dicari lebih kecil, maka batas pencarian digeser ke kiri. Jika lebih besar, batas pencarian digeser ke kanan. Jika ditemukan kesamaan, maka fungsi langsung mengembalikan indeks tempat data berada.
 
 Nilai hasil pencarian disimpan dalam variabel dan kemudian diperiksa. Jika nilainya bukan -1, artinya data ditemukan dan program mencetak posisi indeks tempat data tersebut berada. Jika nilainya -1, maka artinya NIM tidak ditemukan dan program mencetak pesan sesuai.
+
 ## Unguided
-___
+
 <h4>Soal 1</h4>
 Pada pemilihan ketua RT yang baru saja berlangsung, terdapat 20 calon ketua yang bertanding memperebutkan suara warga. Perhitungan suara dapat segera dilakukan karena warga cukup mengisi formulir dengan nomor dari calon ketua RT yang dipilihnya. Seperti biasa, selalu ada pengisian yang tidak tepat atau dengan nomor pilihan di luar yang tersedia, sehingga data juga harus divalidasi. Tugas Anda untuk membuat program mencari siapa yang memenangkan pemilihan ketua RT. Buatlah program pilkart yang akan membaca, memvalidasi, dan menghitung suara yang diberikan dalam pemilihan ketua RT tersebut. 
 Masukan hanya satu baris data saja, berisi bilangan bulat valid yang kadang tersisipi dengan data tidak valid. Data valid adalah integer dengan nilai di antara 1 s.d. 20 (inklusif). Data berakhir jika ditemukan sebuah bilangan dengan nilai 0. 
@@ -198,6 +205,7 @@ func main() {
 ```
 
 >**Output**
+>
 >![](output/soal1.png)
 
 Program ini bertujuan untuk menghitung jumlah data yang masuk dan jumlah data yang termasuk valid dari sekumpulan bilangan bulat. Program menggunakan array bertipe data integer dengan  indeks 1 sampai 20 merepresentasikan nilai data yang diterima. Ada juga variable jumlahMasukan dengan tipe data integer untuk menghitung seluruh data yang diterima, dan jumlahSah dengan tipe data integer untuk menghitung data yang termasuk dalam indeks.
@@ -265,6 +273,7 @@ func main() {
 ```
 
 >**Output**
+>
 >![](output/soal2.png)
 
 Program ini bertujuan untuk menghitung jumlah suara yang masuk, menentukan suara yang sah, serta mencari ketua dan wakil ketua RT berdasarkan suara terbanyak. Program menggunakan array bertipe integer dengan indeks 1 sampai 20 untuk menyimpan jumlah suara masing-masing calon.
@@ -326,6 +335,7 @@ func posisi(n, k int) int {
 ```
 
 >**Output**
+>
 >![](output/soal3.png)
 
 Program ini bertujuan untuk mencari apakah sebuah bilangan tertentu terdapat dalam sekumpulan data yang sudah terurut membesar. Jika bilangan tersebut ditemukan, program akan mencetak posisi indeksnya. Jika tidak ditemukan, maka akan mencetak "TIDAK ADA".
