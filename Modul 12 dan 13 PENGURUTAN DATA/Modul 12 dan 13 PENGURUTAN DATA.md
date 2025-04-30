@@ -1,9 +1,9 @@
-___
 <h1 align=center>Laporan Praktikum Modul 11 PENCARIAN NILAI ACAK PADA HIMPUNAN DATA</h1>
-___
+
 <p align=center>Farrel Aidan Setiawan-103112430020</p>
+
 ## Dasar Teori
-___
+
 Berbeda dengan pencarian nilai ekstrim, yang mana nilai yang dicari selalu ditemukan, maka pada kasus pencarian ini terdapat kemungkinan bahwa data yang dicari tidak ditemukan. Selain itu pada kasus pencarian ini akan diperkenal algoritma pencarian yang memanfaatkan keterurutan data.
 
 ## Guided
@@ -140,6 +140,16 @@ Pada fungsi main(), slice numbers dibuat dengan nilai {64, 25, 12, 22, 11}. Sete
 ## Unguided
 
 <h4>Soal 1</h4>
+
+Buatlah sebuah program yang digunakan untuk membaca data integer seperti contoh yang
+diberikan di bawah ini, kemudian diurutkan (menggunakan metoda insertion sort), dan
+memeriksa apakah data yang terurut berjarak sama terhadap data sebelumnya.
+Masukan terdiri dari sekumpulan bilangan bulat yang diakhiri oleh bilangan negatif. Hanya
+bilangan non negatif saja yang disimpan ke dalam array.
+Keluaran terdiri dari dua baris. Baris pertama adalah isi dari array setelah dilakukan
+pengurutan, sedangkan baris kedua adalah status jarak setiap bilangan yang ada di dalam
+array. "Data berjarak x" atau "data berjarak tidak tetap".
+
 ```go
 package main
 import "fmt"
